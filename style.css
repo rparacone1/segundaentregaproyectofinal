@@ -362,17 +362,19 @@ h5{
 }
 
 
+/* BOOTSTRAP */
+.Sportnet:hover
+{
+    transform: scale(2);
+}
 
+.portada:hover {
+   transform: scale(1.5);
+}
 
-
-
-
-
-
-
-
-
-
+.tresMarcas:hover {
+    transform: scale(1.5);
+ }
 
 
 
