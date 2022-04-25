@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Agrego el import de Google Fonts para CSS */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+body{
+
+display: grid;
+grid-template-areas: 
+"header header header"
+"nav section1 aside"
+"nav section2 aside"
+"footer footer footer";
+grid-template-rows: 15% 55% 55% 15%;
+grid-template-columns: 30% auto 30%;
+background-color: white;
+/* background: url(imagen/descarga.jpeg); */
+}
+
+.bodyMarcas {
+display: grid;
+grid-template-areas: 
+"headerz headerz headerz"
+"navz" "sectionz1" "asidez"
+"navz"  "sectionz2" "asidez";
+}
+
+.holaaHola
+{
+    padding: auto auto 5px auto;
+}
+
+.headerContainer
+{
+    grid-area: headerz;
+  
+    
+  
+    
+}
+
+.marcela{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+nav{
+    grid-area: navz;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    color: black;
+    background-color: white;
+  
+    
+}
+.cajaHijo {
+    display: flex;
+    justify-items: center;
+}
+/* va distinto 
+#section1 {
+    grid-area: sectionz1;
+   
+ 
+    background-color: white;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+       
+}
+*/
+#section2  
+{
+    grid-area: sectionz2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  
+}
+
+aside{
+    grid-area: asidez;
+   
+
+}
+
+
+
+.elAside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 160%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+
+    background-color: white;
+
+}
+
+
+
+
+/* Footer */ /* copio igual */
+footer{
+    grid-area: footerz;
+    font-size: 150%;
+    background-color: blue;
+
+
+
+}
+
+
+.segundoDiv
+{
+    background-color: red;
+}
+
+
+
+
+/* Header */ /* copiarlo */
+.headerContainer{
+    grid-area: header;
+  
+    
+
+}
+/*  Div en HEADER   */
+.Sportnet{
+    background-color:black;
+    color: white;
+  text-align: center;
+    font-size: 350%;
+    font-family: "Source Sans Pro";
+}
+.titulo {
+    text-align: center;
+    color: black;
+   
+}
+.marcela{
+    color:black;
+    font-style: oblique;
+    font-size: 170%;
+    text-align: center;
+}
+
+
+
+/* Nav */ /* copiarlo */
+nav{
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    color: black;
+    background-color: white;
+  
+    
+}
+
+/* Section 1*/ /*va distinto */
+#section1 {
+    grid-area: section1;
+   
+ 
+    background-color: white;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+}
+
+.portada
+{
+    height: 70%;
+    width: auto;
+}
+
+/* div dentro de Section 1 */
+
+
+
+/* Section 2*/ /*copio igual */
+#section2  
+{
+    grid-area: section2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  
+}
+
+
+/* Aside */ /* copio igual */
+aside{
+    grid-area: aside;
+    display: flex;
+    justify-content: center;
+    font-size: 160%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+
+    background-color: white;
+
+
+}
+
+
+
+/* Footer */ /* copio igual */
+footer{
+    grid-area: footer;
+    font-size: 150%;
+    background-color: white;
+
+}
+
+
+.cajaHijoo{
+    
+    display: flex;
+    align-self: center;
+}
+
+
+
+h1{
+    font-style: oblique;
+    
+}
+
+/* MAIN */
+
+.marcasUl{
+    font-size: 230%;
+}
+
+.adidas{
+    width: 45%;
+    height: 45%;
+}
+
+.tresMarcas {
+    width: 120%;
+    height: auto;
+}
+.nike {
+    width: 45% ;
+    height: 45% ;
+}
+
+.puma {
+    width: 40%;
+    height: 40%;
+}
+
+
+.fotoNosotros {
+height: 32%;
+width: 32%;
+}
+.kidsNike {
+    height: 270px;
+    width: 270px;
+}
+
+.kidsAdidas 
+{
+    height: 220px;
+    width: 220px;
+}
+.kidsPuma 
+{
+    height: 220px;
+    width: 220px;
+}
+
+.flexPadre {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.flexFather {
+    display: flex;
+    justify-content: center;
+}
+
+content{
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+
+
+.flexDad {
+    justify-content: center;
+}
+
+h4{text-align: center;}
+
+
+
+
+.otroFlexx
+{
+    display: flex;
+    justify-content: center;
+}
+
+.flexingPaterno
+{
+    display: flex;
+    justify-content: center;
+}
+.flexingPaterna
+{
+    display: flex;
+    justify-content: center;
+}
+.flexingPaternx
+{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: 250%;
+}
+
+.nikeaPuma
+{
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    background-color: black;
+    color: white;
+}
+h5{
+    font-size: 130%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
